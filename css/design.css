@@ -33,14 +33,24 @@
 .menus{
     display: flex;
     text-align: center;
+    padding-left: 340px;
 }
 
 .columna{
     margin-left: 10px;
-    background-color: #cfa90f;
+    background-color: #f9e79f;
     color: black;
-    border: 1px solid red ;
+    border: 3px solid rgba(200, 0, 0, 0.644) ;
     border-radius: 20px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.boton{
+    text-decoration: none;
+    color: black;
+    background-color: #f9e79f;
 }
 
 .sepimg{
@@ -49,4 +59,6 @@
 
 .piedepag{
     background-color: #f9e79f;
+    font-size: 20px;
+    text-align: center;
 }
