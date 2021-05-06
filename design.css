@@ -1,0 +1,111 @@
+.header{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.fondo{
+    background-color: #fff0f0;
+}
+
+.enlace{
+    background-color: #f9e79f;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 15px 30px;
+}
+
+.enlace:hover{
+    background-color: #fbd22a;
+}
+
+.nav{
+    background-color: #f9e79f;
+    background-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35;
+}
+
+.imgmenu{
+    display: flex;
+    text-align: center;
+    margin-left: 380px;
+}
+
+.menus{
+    display: flex;
+    text-align: center;
+    padding-left: 340px;
+}
+
+.columna{
+    margin-left: 10px;
+    background-color: #f9e79f;
+    color: black;
+    border: 3px solid rgba(200, 0, 0, 0.644) ;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.boton{
+    text-decoration: none;
+    color: black;
+    background-color: #f9e79f;
+}
+
+.sepimg{
+    margin-right: 300px;
+}
+
+.piedepag{
+    background-color: #f9e79f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.quieropedir{
+    text-decoration: none;
+    border: 3px solid #be0101;
+    border-radius: 15px;
+}
+
+.quieropedir:hover{
+    background-color: #be0101;
+    color: white;
+}
+
+.formulario{
+    width: 300px;
+    padding-top: 5px;
+    padding-block-end: 10px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f9e79f;
+
+}
+
+.input{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 15px;
+}
+
+.textarea{
+    max-height: 110px;
+    min-height: 30px;
+    max-width: 242px;
+    min-width: 242px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 15px;
+}
