@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Rico</title>
-    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="css/design.css">
     <link rel="stylesheet" href="contacto.html">
     <link rel="stylesheet" href="menus.html">
     <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="enviar.php">
 </head>
 <body class="fondo">
 
@@ -27,17 +28,16 @@
 <br>
 <br>
 
-<section class="formulario">
+<form class="formulario" method="POST">
     <h3>Formulario de Consultas</h3>
-    <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre">
+    <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
     <br>
-    <input class="input" type="text" name="correo" id="correo" placeholder="Mail">
+    <input class="input" type="text" name="correo" id="correo" placeholder="Mail" required>
     <br>
-    <textarea class="textarea" name="comentario" cols="30" rows="10" placeholder="Consulta"></textarea>
+    <textarea class="textarea" name="comentario" cols="30" rows="10" placeholder="Consulta" required></textarea>
     <br>
-    <button>Enviar</button>
-</section>
-
+    <input type="submit" value="ENVIAR" id="boton">
+</form>
 
 <footer class="piedepag">
     <p>Santos Vega 123 | +54 11 2345-6789 | Villa Bosch</p>

@@ -61,6 +61,12 @@
     margin-right: 300px;
 }
 
+@media (max-width: 600px){
+    sepimg{
+        flex-direction: column;
+    }
+}
+
 .piedepag{
     background-color: #f9e79f;
     font-size: 20px;
